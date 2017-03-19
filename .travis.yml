@@ -3,17 +3,9 @@ jdk: oraclejdk8
   
 script: mvn package
 
-before_script:
-  - composer self-update -q
-  - if [ -n "$GH_TOKEN" ]; then composer config github-oauth.github.com ${GH_TOKEN}; fi;
-  - if [ -z "$dependencies" ]; then composer install; fi;
-  - if [ "$dependencies" = "lowest" ]; then composer update --prefer-lowest -n; fi;
-  - if [ "$dependencies" = "highest" ]; then composer update -n; fi;
-  - composer show -i
-  
 deploy:
   provider: releases
-  
+  composer config github-oauth.github.com ${GH_TOKEN}
   file: "AcademicManagerMaven-0.0.1-SNAPSHOT.war"
   skip_cleanup: true
   on:
