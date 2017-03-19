@@ -5,7 +5,8 @@ script: mvn package
 
 deploy:
   provider: releases
-  api_key: "f58d2edc3c1249e535cf6ad027deaf7430abd596"
+  api_key: 
+    secure: "20b54b31d6dfa437f7724410d02467b8c7d87e54"
   file: "AcademicManagerMaven-0.0.1-SNAPSHOT.war"
   skip_cleanup: true
   on:
