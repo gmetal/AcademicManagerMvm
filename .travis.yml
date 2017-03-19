@@ -4,4 +4,9 @@ jdk: oraclejdk8
 script: mvn package
 
 deploy:
-	skip_cleanup: true 
+  provider: releases
+  api_key: "f58d2edc3c1249e535cf6ad027deaf7430abd596"
+  file: "AcademicManagerMaven-0.0.1-SNAPSHOT.war"
+  skip_cleanup: true
+  on:
+    tags: true
