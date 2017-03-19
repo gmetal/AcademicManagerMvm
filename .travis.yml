@@ -4,4 +4,4 @@ jdk: oraclejdk8
 script: mvn package
 
 deploy:
-	skip_cleanup: true
+	skip_cleanup: true 
