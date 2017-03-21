@@ -6,32 +6,8 @@ script: mvn package
 deploy:
   provider: releases
   api_key: 
-    secure: 
-MIIEoQIBAAKCAQEAg0PCxyjKeer8pFpS0oUrYS2G3MI2l2aYUhEnlZV7fTWCsSO2
-s8FawVEvosNASqHaCRiJwvz+JG+68XF8tT4/M/3hRz9uldyf9S7RDS0DCtcxlV4p
-UMCNoqvoTo3YygdNO/IL99YCw8Wfvg9Tn+oFsdcMz9MamxoSxw2i9hZEzO/S72lo
-o9uNgS4QrLp82Op1EyApFmOfIhZPc3TtQ3LT+E/mRhX2vaB5EhzllyWAXE6Ymsaz
-NEOaMVkX0zYCjVjH7aokKLHjmaaq2G6Gi3OEoIOWM7e/FceGKHT+uSx+XzRLZj6O
-n8EUIcn5wrlp6aDz64hVLswhroIrmjXN8loMkwIBJQKCAQAuHroOn6EWFErtozHb
-Q4vIMpcq+CEEwy6ZX/kmt/r0pBkpe0AxUcXw5Sxpnow15db8RuRLbaVmv3kIuSvQ
-+jHh1b3aw0KHrmG3Apx6QD9W1fyqGioxIQ8rUSgbmZ8yOeq0MnLoX/MiMK2/UX4/
-Gt9n/3M0Q0CzCSkxLk4Db5uh8uA/QxnEpVQjaPGgme7o50JHG3L47O6Vxu5OMxWm
-XFfIhhVzvW0VWXIj9eikpbpxEJDOTrxiysH9Zd71iHR29dxLEDJ1ZtooZ/1TdCs8
-lr9zq49iky4QXp3ySAjsozZs8bTd2p95NLCwHGQC6Wtcq2rH6Qka1K32EP89q75c
-kP1VAoGBAPAmR/VFdDAIMJqh1zDGrn2xy03BnYUF6lKEO++auNhV6kjo9f37Uzh1
-8NmS08sXHZyDhW/D05z983tpUWKyDPkPGROYWrQrYGr08nfqDo1aEKR3F7glAnb/
-J/rwtAWDtCgf/Tu4oaE1hkWqxyKZNZhdkMB5S4avKmy7C35BESyfAoGBAIvtsT24
-kNB2q2PfVJBnqcSW8wpBhjf7urkkWNO7i8a2cdZ2LDhx2IWYSMSl3Hs+d/19TXoI
-fa2w9ObCwrbXfFvhilmQ92AO9uUJp5OSfNZfsgrfJIPV3yY8p2CJbN30MqpYq7Rm
-xI+78uY3CylwDVMGOPDy++b0Ow/NLc9uv+eNAoGBANYv+v1ZnvpoK1l7lmnF9ZKz
-VHXIXA7bwycAUSHPLz19Dzob4lE6GcqStDesd7UidFspMdJijE2/5v9d7qQiQuv4
-tYAt8Ah5ttvvOR7XrB00pw85yQwFVTmzI6h10P3/2Agch+koIXQa+zc3c1Y1noD5
-gRpeWB4thrQAxQ+9fgUzAoGAdTzE7oXhHVyBwmErLOE7NgHuOQZ3X1ZeLGqPnKQN
-U3ZDs68eIXQkHOdfkACWIhG+em/m94qSz8ucwVcR13ZFmRbpiU/x2twa9z9wuelv
-gy2VK7QJ1j2RcxA5NTTerB+gEi6dstKkr8b78VC2UyaHtEN70MuUyGvCyAzFhEgI
-kZECgYBfYVKzGDAsoBC0/lqI0fOiQ9SJ1D+R1g35OzUnWxWC8ymuAOyHNoimfP/f
-lk8BaHUAHYZ8D8bvNARCXbmMIoWqlQwBWQVs4qYePkgT+FzIcLOZTRskMOnPEXLi
-9EqsftxU3nkKIHqeYdp+w0efZPYqGPbTj/nk+pojpUaddr3/DQ==
+    secure:GH_TOKEN 
+
   #api_key: ${GH_TOKEN}
   #composer: config github-oauth.github.com ${GH_TOKEN}
   file: "AcademicManagerMaven-0.0.1-SNAPSHOT.war"
