@@ -1,13 +1,4 @@
 language: java
 jdk: oraclejdk8
 
-script: mvn package
-
-deploy:
-  provider: releases
-  composer config github-oauth.github.com ${GH_TOKEN}
-  file: "AcademicManagerMaven-0.0.1-SNAPSHOT.war"
-  skip_cleanup: true
-  on:
-    tags: true
-
+script: mvn compile
