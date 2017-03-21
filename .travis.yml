@@ -6,7 +6,7 @@ script: mvn package
 deploy:
   provider: releases
   api_key: 
-    secure:GH_TOKEN 
+    secure: GH_TOKEN 
 
   #api_key: ${GH_TOKEN}
   #composer: config github-oauth.github.com ${GH_TOKEN}
