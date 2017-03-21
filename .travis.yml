@@ -8,4 +8,5 @@ deploy:
   file: target/AcademicManagerMaven-0.0.1-SNAPSHOT.war
   skip_cleanup: true
   on:
+    all_branches: true
     repo: gmetal/AcademicManagerMvm
