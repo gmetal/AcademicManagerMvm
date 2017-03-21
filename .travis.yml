@@ -6,7 +6,15 @@ script: mvn package
 deploy:
   provider: releases
   api_key: 
-    secure: 930a37b459f892bb170632a9ed3b719ed3cb4b90
+      secure: "hZxvu1AktxYGuSxJjZd2M23dO4rdeSX2u3BHhLdhji4kCI+Fkg8Ksk08UCYfi/NGT9H/Z
+J4Gd/xXNiZHArXS/UHAyUF5AXmoyOZRCUUFIBQE8xGykp9cYlgHsGp/8+1yJygAWQcTAzQsghHntVgcA
+JqvMpuZ/Z3/jNlUaeVZkCRz+/onmuF1YxQ3P5B+5qjkKyPPXKMEerGOR3zDIMbgyRFPpvTRSj6EvoQUa
+ohie1/8sIk2tYJzo5xy2yIwaMn4SoSj7jjYaBBJU2AYfGB/PGCirPhni2REMKg68aYz0trIaR2K12RTD
+aw4Uj4V99lVDYTxs/Uaw2jWP2Bqf0aSlKOXmO9vqv2slYkrQGIvFTqGIEtti5E95uM665y063TQuQmKs
+M+QMol8HzLrdlOSiQROsYghJuG6Kl8HN1K3mxQqrfPs+aDAb0chB7WsB2sRbgLXSOkbeLWfUZI8jwj6L
+eZCm71QRNgGlQ1C+6SUo5dlZDRsEKnLIl44CQCE+3tFsTXUj0yhiksYn1WQEHRXxLH3vyggYkYCfzrZE
+OSaPIg36S1CW3ENt0BlAAugmS23nHZz+dpHp6cH5n/cseOYH3Ci7/A5TcfnMVaR/UqUDsk8SeRIJ7TBG
+Igb9/wq67CVd1NV3s0dyriHSXI+XZKCC5ETsV/662U555amqZHPxuU="
 
   #api_key: ${GH_TOKEN}
   #composer: config github-oauth.github.com ${GH_TOKEN}
