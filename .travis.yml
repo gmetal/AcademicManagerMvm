@@ -16,9 +16,7 @@ eZCm71QRNgGlQ1C+6SUo5dlZDRsEKnLIl44CQCE+3tFsTXUj0yhiksYn1WQEHRXxLH3vyggYkYCfzrZE
 OSaPIg36S1CW3ENt0BlAAugmS23nHZz+dpHp6cH5n/cseOYH3Ci7/A5TcfnMVaR/UqUDsk8SeRIJ7TBG
 Igb9/wq67CVd1NV3s0dyriHSXI+XZKCC5ETsV/662U555amqZHPxuU="
 
-  #api_key: ${GH_TOKEN}
-  #composer: config github-oauth.github.com ${GH_TOKEN}
   file: "/home/travis/build/agian75/AcademicManagerMvm/target/AcademicManagerMaven-0.0.1-SNAPSHOT.war"
   skip_cleanup: true
   on:
-    tags: true
+    repo: agian75/AcademicManagerMvm
