@@ -10,7 +10,7 @@ deploy:
 
   #api_key: ${GH_TOKEN}
   #composer: config github-oauth.github.com ${GH_TOKEN}
-  file: "AcademicManagerMaven-0.0.1-SNAPSHOT.war"
+  file: "/home/travis/build/agian75/AcademicManagerMvm/target/AcademicManagerMaven-0.0.1-SNAPSHOT.war"
   skip_cleanup: true
   on:
     tags: true
