@@ -1,5 +1,10 @@
 language: java
 jdk: oraclejdk8
-
 script: mvn package
-
+deploy:
+  provider: releases
+  api_key:
+    secure: pFSkQu6qIaPU7RLD+yp2SPIDo2orl7ZVrPhKv5FifvHVbxTodIyd8B4cPGUBJ+wx0G/t7snII/YF00D4zzxPAroeoC9CMj/KoFQzQR32n9iAPTktEDeJEMxY7h+Z3kIbeJSiYY24eyfS+gMCdcQ4IBbYzbnF1hvibwUb5krYYfibNlVBQCRALllApg/q0RqmaRHRPWF7lSjj/KYSYE6Oo1Xe4gpGnMhmL+z4nFjMy1OH2ZufUIGgBIfNNjUTKpNflvcnXPOsD7zeHkl6d6FnCbp3iCK7oQA3YBfFXGmCIb9w2luKwgbSF5o8BDJnEhnxOwpll12WYEkJvGR3r9cMS3fv9p9KLtnDQ5cmeJO8OoWS2uBcn0vyWNTL5dpp90q+iWtlKd8DJ5OdbSN+pKj2TV38F786TsRP8J24cjgwBRkFw1tdRb23NN/kRom28HQ5foHZnoYw33FuIOpZmMCr3GPVwJgqf1W5qrdFSwPUL/ritmpAPUKqczhNBDLxlEld71blj6udrQ3vbXJUTB5BAmIDMET621h9fpiVpOzFUzA5arZwIlSQXSj9XZlHFLva+1GciOWUwMd2dVyrBntwsD/RPIjko+MHkChKas8KQ0uyPhMuWkozE21IIhRM4vfGGAslS5anFzu5deWIIevYlY1b74VTBGuM1nTYG7IDYpA=
+  file: AcademicManagerMvm/target/AcademicManagerMaven-0.0.1-SNAPSHOT.war
+  on:
+    repo: gmetal/AcademicManagerMvm
